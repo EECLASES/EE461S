@@ -5,9 +5,9 @@ rm -rf build &&
 cd src &&
 
 
-gcc -o main main.c &&
+gcc -ggdb -o debug main.c &&
 cd .. &&
 mkdir build &&
-mv src/main build &&
+mv src/debug build &&
 cd build &&
-./main
+gdb debug

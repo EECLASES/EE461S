@@ -1,0 +1,10 @@
+
+
+
+
+yash: yash.c
+
+# targets ($@) and dependency list ($^)
+	gcc -o $@ $^ 
+
+

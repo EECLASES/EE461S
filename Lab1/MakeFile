@@ -1,6 +1,0 @@
-CC=gcc
-CFLAGS=-I
-DEPS = functions.h
-yash: yash.c functions.c
-	$(CC) -o yash.c functions.c
- 
